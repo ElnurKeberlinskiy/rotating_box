@@ -24,6 +24,7 @@ class RotatingContainer extends StatefulWidget {
   _RotatingContainerState createState() => _RotatingContainerState();
 }
 
+//class
 class _RotatingContainerState extends State<RotatingContainer>
     with SingleTickerProviderStateMixin {
   double rotationX = 0, goalRotationX = 0;
